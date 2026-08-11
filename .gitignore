@@ -2,7 +2,4 @@
 .DS_Store
 .AppleDouble
 
-# Ignore os-specific settings
-**/os_local/**
-
 .LSOverride
