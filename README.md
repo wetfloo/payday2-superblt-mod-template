@@ -4,9 +4,9 @@
 
 Made this for personal use. [`vendor`](vendor/) includes some common source code
 for the following:
-- [Base PAYDAY 2](https://github.com/steam-test1/Payday-2-LuaJIT-Complete)
-- [SuperBLT base mod](https://github.com/diesel-modding/PAYDAY2-SuperBLT-Lua)
-- [BeardLib](https://github.com/diesel-modding/PAYDAY-2-BeardLib)
+- [Base PAYDAY 2](vendor/PAYDAY-2/)
+- [SuperBLT base mod](vendor/SuperBLT/)
+- [BeardLib](vendor/BeardLib/)
 
 ## Getting started
 
