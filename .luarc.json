@@ -3,7 +3,7 @@
 	"runtime.version": "LuaJIT",
 	"workspace.preloadFileSize": 10000,
 	"workspace.library": [
-		"./vendor/PAYDAY2",
+		"./vendor/PAYDAY-2",
 		"./vendor/SuperBLT",
 		"./vendor/BeardLib"
 	],
