@@ -50,7 +50,7 @@ MyExampleMod._mt_data = MyExampleMod._mt_data
 setmetatable(MyExampleMod._data, MyExampleMod._mt_data)
 
 --- Loads the mod's configuration,
---- saving it to [LowAmmoText._data] and returning it as a table.
+--- saving it to [MyExampleMod._data] and returning it as a table.
 function MyExampleMod:load_configuration()
 	local file = io.open(self.save_path, "r")
 	if not file then
