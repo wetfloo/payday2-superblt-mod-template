@@ -2,7 +2,7 @@
 
 ## About
 
-Made this for personal use. [`vendor`](vendor/) includes some common source code
+Made this for personal use. [`base/`](base/) includes some common source code
 for the following:
 - [Base PAYDAY 2](https://github.com/steam-test1/Payday-2-LuaJIT-Complete)
 - [SuperBLT base mod](https://github.com/diesel-modding/PAYDAY2-SuperBLT-Lua)
@@ -23,6 +23,6 @@ Next, update [`mod.txt`](src/mod.txt) to make the necessary adjustments to make 
 ## LSP/Formatters
 
 If you have [`lua-language-server`](https://github.com/LuaLS/lua-language-server),
-it should be able to index included [`vendor`](vendor/) source code.
+it should be able to index included [`base/`](base/) source code.
 
 [`stylua`](https://github.com/JohnnyMorganz/StyLua) should be used to format `.lua` source code.
