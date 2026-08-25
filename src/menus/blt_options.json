@@ -1,0 +1,21 @@
+{
+	"menu_id": "my_example_mod_blt_options",
+	"parent_menu_id": "blt_options",
+	"title": "my_example_mod__blt_options__title",
+	"description": "my_example_mod__blt_options__desc",
+	"back_callback": "my_example_mod__menu_callback__closed",
+	"items": [
+		{
+			"type": "slider",
+			"id": "my_example_mod__menu_component__example_value",
+			"callback": "my_example_mod__menu_callback__example_value_percent",
+			"title": "my_example_mod__menu_component__example_value__title",
+			"description": "my_example_mod__menu_component__example_value__desc",
+			"min": 0,
+			"max": 100,
+			"step": 1,
+			"show_value": true,
+			"value": "example_value_percent"
+		}
+	]
+}
