@@ -73,7 +73,7 @@ jobs:
         run: |
           gh release create "${GITHUB_REF_NAME}" \
             "MyExampleMod.zip" \
-            "blt-meta.json" \
+            "src/blt-meta.json" \
             "CHANGELOG.md" \
             --title "${GITHUB_REF_NAME}" \
             --notes-file release-notes.md
