@@ -64,6 +64,7 @@ jobs:
           mkdir -p "release/My Example Mod"
           cp -r "src/." "release/My Example Mod/"
           cd "release"
+          rm "My Example Mod/blt-meta.json"
           zip -r "../MyExampleMod.zip" "My Example Mod"
 
       - name: Create GitHub Release
