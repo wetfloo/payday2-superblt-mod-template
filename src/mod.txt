@@ -13,8 +13,8 @@
 	"needs_restart": true,
 	"hooks": [
 		{
-			"hook_id": "lib/entry",
-			"script_path": "main.lua"
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/main.lua"
 		},
 		{
 			"hook_id": "lib/managers/menumanager",
